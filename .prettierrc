@@ -1,0 +1,7 @@
+{
+  "bracketSpacing": true,
+  "editorconfig": true,
+  "printWidth": 150,
+  "semi": true,
+  "singleQuote": false
+}
