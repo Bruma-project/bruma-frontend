@@ -2,12 +2,17 @@ import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import { AppLayout } from "@/layouts";
 import { ROUTES } from "@/models";
-import { CharacterSheetCreator, Home } from "@/pages";
+import { CharacterSheetCreator, Home, Login, Error404 } from "@/pages";
+
 
 export const router = createBrowserRouter([
   {
     path: ROUTES.HOME,
     element: <Home />,
+  },
+  {
+    path: ROUTES.LOGIN,
+    element: <Login />,
   },
   {
     path: ROUTES.APP.pathname,
@@ -19,7 +24,10 @@ export const router = createBrowserRouter([
       },
     ],
   },
-
+  {
+    path: ROUTES.ERROR404,
+    element: <Error404 />,
+  },
   // Default redirect
   {
     path: "*",
