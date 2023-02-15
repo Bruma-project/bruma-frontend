@@ -28,9 +28,4 @@ export const router = createBrowserRouter([
     path: ROUTES.ERROR404,
     element: <Error404 />,
   },
-  // Default redirect
-  {
-    path: "*",
-    element: <Navigate replace to={ROUTES.HOME} />,
-  },
 ]);
