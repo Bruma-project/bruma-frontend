@@ -42,7 +42,7 @@ export const Login = () => {
               ¿No tienes cuenta?
             </p>
             <p>
-              Crea tu propia cuenta <a href="Link to account creation">aqui</a>
+              Crea tu propia cuenta <a href="#">aqui</a>
             </p>
           </div>
         </div>
